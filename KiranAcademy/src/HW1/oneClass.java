@@ -17,7 +17,8 @@ public class oneClass {
 		return ans3;
 	}
 	
-	float areaOfCircle(int pi, int r) {
+	float areaOfCircle(float r) {
+		float pi = 3.14f;
 		float ans4 = pi * r * r;
 		return ans4;
 	}
@@ -33,7 +34,7 @@ public class oneClass {
 		int answer3 =s.multiply(9, 33);
 		System.out.println(answer3);
 
-		float answer4 =s.areaOfCircle(9, 33);
+		float answer4 =s.areaOfCircle(2.6f);
 		System.out.println(answer4);
 
 		

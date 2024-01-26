@@ -21,8 +21,8 @@ public class globalVariable {
 		return ans3;
 	}
 	
-	float areaOfCircle() {
-		
+	float areaOfCircle(float r) {
+		float pi = 3.14f;
 		float ans4 = pi * r * r;
 		return ans4;
 	}
@@ -39,7 +39,7 @@ public class globalVariable {
 		int answer3 =s.multiply();
 		System.out.println(answer3);
 
-		float answer4 =s.areaOfCircle();
+		float answer4 =s.areaOfCircle(2.6f);
 		System.out.println(answer4);
 
 	}
