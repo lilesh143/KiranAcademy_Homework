@@ -22,6 +22,7 @@ public class globalVariable {
 	}
 	
 	float areaOfCircle(float r) {
+		//local variable
 		float pi = 3.14f;
 		float ans4 = pi * r * r;
 		return ans4;

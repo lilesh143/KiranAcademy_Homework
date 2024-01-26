@@ -18,6 +18,7 @@ public class oneClass {
 	}
 	
 	float areaOfCircle(float r) {
+		//local
 		float pi = 3.14f;
 		float ans4 = pi * r * r;
 		return ans4;
